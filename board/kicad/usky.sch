@@ -1,0 +1,155 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:resistors
+LIBS:stm32f103tb-qfn36
+LIBS:lm27313-sot23
+LIBS:reg113-xx-sot23
+LIBS:usky-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "4 feb 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F103TB-QFN36 U?
+U 1 1 54D09291
+P 5850 4000
+F 0 "U?" H 6400 4350 60  0000 C CNN
+F 1 "STM32F103TB-QFN36" H 6750 3650 60  0000 C CNN
+F 2 "~" H 5900 3850 60  0000 C CNN
+F 3 "~" H 5900 3850 60  0000 C CNN
+	1    5850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM27313-SOT23 U?
+U 1 1 54D1DE3F
+P 2300 1800
+F 0 "U?" H 2300 2150 60  0000 C CNN
+F 1 "LM27313-SOT23" H 2900 1600 60  0000 C CNN
+F 2 "~" H 2300 1800 60  0000 C CNN
+F 3 "~" H 2300 1800 60  0000 C CNN
+	1    2300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L REG113-XX-SOT23 U?
+U 1 1 54D1DFBE
+P 9300 1700
+F 0 "U?" H 9300 1950 60  0000 C CNN
+F 1 "REG113-XX-SOT23" H 9300 1450 60  0000 C CNN
+F 2 "~" H 9300 1700 60  0000 C CNN
+F 3 "~" H 9300 1700 60  0000 C CNN
+	1    9300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES_0603 R?
+U 1 1 54D1E0AA
+P 1800 1800
+F 0 "R?" H 1800 1700 25  0000 C CNN
+F 1 "51k" H 1800 1850 25  0000 C CNN
+F 2 "SM0603" H 1800 1800 60  0001 C CNN
+F 3 "~" H 1800 1800 60  0000 C CNN
+	1    1800 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1800 2050 1800
+Wire Wire Line
+	1400 1600 2050 1600
+Wire Wire Line
+	1600 1600 1600 1800
+Wire Wire Line
+	1600 1800 1700 1800
+$Comp
+L CSMALL C?
+U 1 1 54D1E0FD
+P 1400 1750
+F 0 "C?" H 1425 1800 30  0000 L CNN
+F 1 "CSMALL" H 1425 1700 30  0000 L CNN
+F 2 "~" H 1400 1750 60  0000 C CNN
+F 3 "~" H 1400 1750 60  0000 C CNN
+	1    1400 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54D1E10C
+P 1400 2050
+F 0 "#PWR?" H 1400 2050 30  0001 C CNN
+F 1 "GND" H 1400 1980 30  0001 C CNN
+F 2 "" H 1400 2050 60  0000 C CNN
+F 3 "" H 1400 2050 60  0000 C CNN
+	1    1400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54D1E11B
+P 2350 2050
+F 0 "#PWR?" H 2350 2050 30  0001 C CNN
+F 1 "GND" H 2350 1980 30  0001 C CNN
+F 2 "" H 2350 2050 60  0000 C CNN
+F 3 "" H 2350 2050 60  0000 C CNN
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1950 2350 2050
+Wire Wire Line
+	1400 1850 1400 2050
+Wire Wire Line
+	1400 1500 1400 1650
+Connection ~ 1600 1600
+$Comp
+L +5V #PWR?
+U 1 1 54D1E13D
+P 1400 1500
+F 0 "#PWR?" H 1400 1590 20  0001 C CNN
+F 1 "+5V" H 1400 1590 30  0000 C CNN
+F 2 "" H 1400 1500 60  0000 C CNN
+F 3 "" H 1400 1500 60  0000 C CNN
+	1    1400 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1400 1600
+$EndSCHEMATC
