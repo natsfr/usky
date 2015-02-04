@@ -1,4 +1,4 @@
-update=Wed 04 Feb 2015 10:00:27 AM CET
+update=04/02/2015 15:03:21
 version=1
 last_client=eeschema
 [cvpcb]
@@ -84,7 +84,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=Passive/resistors
-LibName32=uC/ST/stm32f103tb-qfn36
-LibName33=Power/TI/lm27313-sot23
-LibName34=Power/TI/reg113-xx-sot23
+LibName31=uC/ST/stm32f103tb-qfn36
+LibName32=Power/TI/lm27313-sot23
+LibName33=Power/TI/reg113-xx-sot23
+LibName34=Passive/passives
