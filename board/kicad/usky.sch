@@ -38,7 +38,7 @@ LIBS:tpd4e1u06-sc70
 LIBS:tc2030
 LIBS:tl97x
 LIBS:xtals
-LIBS:usky-cache
+LIBS:power_symbols
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -368,7 +368,7 @@ Wire Wire Line
 Connection ~ 5250 1450
 Text Label 8200 1350 2    25   ~ 0
 AV_RNG_OUT
-Text Notes 3550 1700 0    60   ~ 0
+Text Notes 3400 1950 0    60   ~ 0
 Need test to\nchoose Voltage
 $Comp
 L USB_A J102
@@ -1017,7 +1017,7 @@ Wire Wire Line
 	6050 1250 6350 1250
 Text Notes 9600 2350 0    60   ~ 0
 G = -1*(R113/R111)\nR3 = R113 || R111
-Text Notes 9600 2750 0    60   ~ 0
+Text Notes 9600 2550 0    60   ~ 0
 TL974:\nGBWP = 8.5 to 12MHz
 Text Notes 9600 3150 0    60   ~ 0
 Vn = sqrt(4*kB*T*R*BW)\nkB = 1.38*10^-23\nT = 300K (certainly more)\nR = 1Mohm\nBW=1MHz
