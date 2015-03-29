@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 24/02/2015 16:03:42
+Cmp-Mod V01 Created by Cvpcb (after 2015-jan-16 BZR unknown)-product   date = 29/03/2015 03:24:48
 
 BeginCmp
 TimeStamp = /54D1E0FD;
@@ -137,14 +137,14 @@ BeginCmp
 TimeStamp = /54D2444C;
 Reference = Q101;
 ValeurCmp = NPN;
-IdModule  = General_SMD:SOT23EBC;
+IdModule  = General_SMD:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D2447C;
 Reference = Q102;
 ValeurCmp = NPN;
-IdModule  = General_SMD:SOT23EBC;
+IdModule  = General_SMD:SOT23;
 EndCmp
 
 BeginCmp
